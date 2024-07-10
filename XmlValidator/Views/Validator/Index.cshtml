@@ -1,0 +1,123 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/styles/default.min.css">
+<style>
+    .modal-content {
+        background-color: #282a36;
+        color: #f8f8f2;
+        border: 1px solid #6272a4;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .modal-header {
+        background-color: #44475a;
+        color: #f8f8f2;
+        border-bottom: 1px solid #6272a4;
+    }
+
+    .modal-body {
+        background-color: #282a36;
+        color: #f8f8f2;
+    }
+
+    .modal-footer {
+        background-color: #44475a;
+        color: #f8f8f2;
+        border-top: 1px solid #6272a4;
+    }
+
+    .modal-title {
+        color: #ff79c6;
+    }
+
+    .btn-primary {
+        background-color: #bd93f9;
+        border-color: #bd93f9;
+        width:135px;
+    }
+
+        .btn-primary:hover {
+            background-color: #ca9efa;
+            border-color: #ca9efa;
+        }
+    .modal-dialog {
+        max-width: 950px;
+    }
+</style>
+<div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalToggleLabel">Validator</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                @*<input type="file" id="importXml" class="form-control" />*@
+            </div>
+            <div class="modal-footer">
+                <button id="btnimportXml" class="btn btn-primary" data-bs-toggle="modal" data-bs-dismiss="modal">Validate</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalToggleLabel2">List of Errors</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div id="jsonEditor" style="height: 500px; width: 100%;"></div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal" data-bs-dismiss="modal">Back to Upload</button>
+            </div>
+        </div>
+    </div>
+</div>
+<a class="btn btn-primary" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Validate Xml</a>
+
+@section scripts{
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.12/ace.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.12/mode-json.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.12/theme-dracula.js"></script>
+
+    <script>
+        var editor = ace.edit("jsonEditor");
+        editor.setTheme("ace/theme/dracula");
+        editor.session.setMode("ace/mode/json");
+
+        $('#btnimportXml').click(function () {
+            //var files = $("#importXml").get(0).files;
+
+            //var formData = new FormData();
+            //formData.append('importXml', files[0]);
+
+            $.ajax({
+                url: '@Url.Action("Validate", "Validator")',
+                //data: formData,
+                type: 'POST',
+                contentType: false,
+                processData: false,
+                success: function (data) {
+                    if (!data.status) {
+                        var prettyErrors = JSON.stringify(data.errors, undefined, 4);
+                        editor.setValue(prettyErrors, 1);
+                        $('#exampleModalToggle2').modal('show');
+                    } else {
+                        var prettyErrors = JSON.stringify(data.message, undefined, 4);
+                        editor.setValue(prettyErrors, 1);
+                        $('#exampleModalToggle2').modal('show');
+                    }
+                    $('#importXml').val('');
+                },
+                error: function () {
+                    editor.setValue('Failed To Upload', 1);
+                    $('#exampleModalToggle2').modal('show');
+                }
+            });
+        });
+    </script>
+}

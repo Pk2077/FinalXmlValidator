@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+  <cbc:ID>7</cbc:ID>
+  <cbc:IssueDate>2024-07-08Z</cbc:IssueDate>
+  <cbc:IssueTime>13:27:41</cbc:IssueTime>
+  <cbc:InvoiceTypeCode listVersionID="1.0">01s</cbc:InvoiceTypeCode>
+  <cbc:DocumentCurrencyCode>MYRs</cbc:DocumentCurrencyCode>
+  <cac:InvoicePeriod>
+    <cbc:StartDate>2024-07-08Z</cbc:StartDate>
+    <cbc:EndDate>2024-07-08Z</cbc:EndDate>
+    <cbc:Description>Weekly$dfg dfg</cbc:Description>
+  </cac:InvoicePeriod>
+  <cac:BillingReference>
+    <cac:AdditionalDocumentReference>
+      <cbc:ID>7</cbc:ID>
+    </cac:AdditionalDocumentReference>
+  </cac:BillingReference>
+  <cac:AccountingSupplierParty>
+    <cac:Party>
+      <cbc:IndustryClassificationCode name="Growing of maize">01111 sdfgfd</cbc:IndustryClassificationCode>
+      <cac:PartyIdentification>
+        <cbc:ID schemeID="TIN">C11092867090 dfg</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyIdentification>
+        <cbc:ID schemeID="BRN">200301005841 dfg</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyIdentification>
+        <cbc:ID schemeID="SST">NA dfg</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyIdentification>
+        <cbc:ID schemeID="TTX">NA dfg </cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PostalAddress>
+        <cbc:CityName>Kuala Lumpur New dfgdfg dfgdfg um of amount chargeable for each tax typePlease add currencyID attribute to the XMLSum of amount chargeable for edd currencyID attribute to trertewrt</cbc:CityName>
+        <cbc:PostalZone>Sum of amount chargeable for each tax typePlease a</cbc:PostalZone>
+        <cbc:CountrySubentityCode>02</cbc:CountrySubentityCode>
+        <cac:AddressLine>
+          <cbc:Line>Sum of amount chargeable for each tax typePlease add currencyID attribute to the XMLSum of amount chargeable for edd currencyID attribute to trertewrt um of amount chargeable for each tax typePlease add currencyID attribute to the XMLSum of amount chargeable for edd currencyID attribute to trertewrt</cbc:Line>
+        </cac:AddressLine>
+        <cac:AddressLine>
+          <cbc:Line>Sum of amount chargeable for each tax typePlease add currencyID attribute to the XMLSum of amount chargeable for edd currencyID attribute to trertewrt um of amount chargeable for each tax typePlease add currencyID attribute to the XMLSum of amount chargeable for edd currencyID attribute to trertewrt</cbc:Line>
+        </cac:AddressLine>
+        <cac:AddressLine>
+          <cbc:Line>Sum of amount chargeable for each tax typePlease add currencyID attribute to the XMLSum of amount chargeable for edd currencyID attribute to trertewrt um of amount chargeable for each tax typePlease add currencyID attribute to the XMLSum of amount chargeable for edd currencyID attribute to trertewrt</cbc:Line>
+        </cac:AddressLine>
+        <cac:Country>
+          <cbc:IdentificationCode listID="ISO3166-1" listAgencyID="6">AGO dsfg</cbc:IdentificationCode>
+        </cac:Country>
+      </cac:PostalAddress>
+      <cac:PartyLegalEntity>
+        <cbc:RegistrationName>Dep1</cbc:RegistrationName>
+      </cac:PartyLegalEntity>
+      <cac:Contact>
+        <cbc:Telephone>9032683210 um of amount chargeable for each tax typePlease add currencyID attribute to the XMLSum of amount chargeable for edd currencyID attribute to trertewrt</cbc:Telephone>
+      </cac:Contact>
+    </cac:Party>
+  </cac:AccountingSupplierParty>
+  <cac:AccountingCustomerParty>
+    <cac:Party>
+      <cac:PartyIdentification>
+        <cbc:ID schemeID="TIN">C10924234030 sagdsfag </cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyIdentification>
+        <cbc:ID schemeID="BRN">2001010@2867</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyIdentification>
+        <cbc:ID schemeID="SST">NA asdg </cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PostalAddress>
+        <cbc:CityName>Kuala Lumpur OLD</cbc:CityName>
+        <cbc:PostalZone>50480 sadgsd  sgsd um of amount chargeable for each tax typePlease add currencyID attribute to the XMLSum of amount chargeable for edd currencyID attribute to trertewrt</cbc:PostalZone>
+        <cbc:CountrySubentityCode>10 sdfsdfd sdfgsdf d</cbc:CountrySubentityCode>
+        <cac:AddressLine>
+          <cbc:Line>Buyer Lot 66 um of amount chargeable for each tax typePlease add currencyID attribute to the XMLSum of amount chargeable for edd currencyID attribute to trertewrt um of amount chargeable for each tax typePlease add currencyID attribute to the XMLSum of amount chargeable for edd currencyID attribute to trertewrt</cbc:Line>
+        </cac:AddressLine>
+        <cac:AddressLine>
+          <cbc:Line>Buyer Bangunan Merdeka um of amount chargeable for each tax typePlease add currencyID attribute to the XMLSum of amount chargeable for edd currencyID attribute to trertewrt um of amount chargeable for each tax typePlease add currencyID attribute to the XMLSum of amount chargeable for edd currencyID attribute to trertewrt</cbc:Line>
+        </cac:AddressLine>
+        <cac:AddressLine>
+          <cbc:Line>Buyer Persiaran Jaya szdfs um of amount chargeable for each tax typePlease add currencyID attribute to the XMLSum of amount chargeable for edd currencyID attribute to trertewrt s dsf um of amount chargeable for each tax typePlease add currencyID attribute to the XMLSum of amount chargeable for edd currencyID attribute to trertewrt</cbc:Line>
+        </cac:AddressLine>
+        <cac:Country>
+          <cbc:IdentificationCode listID="ISO3166-1" listAgencyID="6">MYS sdfds</cbc:IdentificationCode>
+        </cac:Country>
+      </cac:PostalAddress>
+      <cac:PartyLegalEntity>
+        <cbc:RegistrationName>Checkers Hypermarket Sdn Bhd sdf um of amount chargeable for each tax typePlease add currencyID attribute to the XMLSum of amount chargeable for edd currencyID attribute to trertewrt um of amount chargeable for each tax typePlease add currencyID attribute to the XMLSum of amount chargeable for edd currencyID attribute to trertewrt um of amount chargeable for each tax typePlease add currencyID attribute to the XMLSum of amount chargeable for edd currencyID attribute to trertewrt</cbc:RegistrationName>
+      </cac:PartyLegalEntity>
+      <cac:Contact>
+        <cbc:Telephone>+60123456789 sdfsdf dsfsd um of amount chargeable for each tax typePlease add currencyID attribute to the XMLSum of amount chargeable for edd currencyID attribute to trertewrt um of amount chargeable for each tax typePlease add currencyID attribute to the XMLSum of amount chargeable for edd currencyID attribute to trertewrt</cbc:Telephone>
+      </cac:Contact>
+    </cac:Party>
+  </cac:AccountingCustomerParty>
+  <cac:PaymentMeans>
+    <cbc:PaymentMeansCode>02sdfsd dfsdf sd fd</cbc:PaymentMeansCode>
+  </cac:PaymentMeans>
+  <cac:TaxTotal>
+    <cbc:TaxAmount currencyID="MYR">200.00</cbc:TaxAmount>
+    <cac:TaxSubtotal>
+      <cbc:TaxableAmount currencyID="MYR">2000.00</cbc:TaxableAmount>
+      <cbc:TaxAmount currencyID="MYR">200.00</cbc:TaxAmount>
+      <cac:TaxCategory>
+        <cbc:ID>01ddd</cbc:ID>
+        <cbc:Percent>10.00</cbc:Percent>
+        <cac:TaxScheme>
+          <cbc:ID schemeID="UN/ECE 5153" schemeAgencyID="6">OTH sdf sd fd</cbc:ID>
+        </cac:TaxScheme>
+      </cac:TaxCategory>
+    </cac:TaxSubtotal>
+    <cac:TaxSubtotal>
+      <cbc:TaxableAmount currencyID="MYR">2000.00</cbc:TaxableAmount>
+      <cbc:TaxAmount currencyID="MYR">0.00</cbc:TaxAmount>
+      <cac:TaxCategory>
+        <cbc:ID>Eddddd dfdf </cbc:ID>
+        <cbc:Percent>0.00</cbc:Percent>
+        <cac:TaxScheme>
+          <cbc:ID schemeID="UN/ECE 5153" schemeAgencyID="6">OTH</cbc:ID>
+        </cac:TaxScheme>
+      </cac:TaxCategory>
+    </cac:TaxSubtotal>
+  </cac:TaxTotal>
+  <cac:LegalMonetaryTotal>
+    <cbc:LineExtensionAmount currencyID="MYR">4000.00</cbc:LineExtensionAmount>
+    <cbc:TaxExclusiveAmount currencyID="MYR">4000.00</cbc:TaxExclusiveAmount>
+    <cbc:TaxInclusiveAmount currencyID="MYR">4200.00</cbc:TaxInclusiveAmount>
+    <cbc:AllowanceTotalAmount currencyID="MYR">0.00</cbc:AllowanceTotalAmount>
+    <cbc:ChargeTotalAmount currencyID="MYR">0.00</cbc:ChargeTotalAmount>
+    <cbc:PayableRoundingAmount currencyID="MYR">0.00</cbc:PayableRoundingAmount>
+    <cbc:PayableAmount currencyID="MYR">4200.00</cbc:PayableAmount>
+  </cac:LegalMonetaryTotal>
+  <cac:InvoiceLine>
+    <cbc:ID>1</cbc:ID>
+    <cbc:InvoicedQuantity unitCode="C81">100.00</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="MYR">2000.00</cbc:LineExtensionAmount>
+    <cac:AllowanceCharge>
+      <cbc:ChargeIndicator>false</cbc:ChargeIndicator>
+      <cbc:AllowanceChargeReason>discount um of amount chargeable for each tax typePlease add currencyID attribute to the XMLSum of amount chargeable for edd currencyID attribute to trertewrt um of amount chargeable for each tax typePlease add currencyID attribute to the XMLSum of amount chargeable for edd currencyID attribute to trertewrt um of amount chargeable for each tax typePlease add currencyID attribute to the XMLSum of amount chargeable for edd currencyID attribute to trertewrt</cbc:AllowanceChargeReason>
+      <cbc:Amount currencyID="MYR">0.00</cbc:Amount>
+    </cac:AllowanceCharge>
+    <cac:TaxTotal>
+      <cbc:TaxAmount currencyID="MYR">200.00</cbc:TaxAmount>
+      <cac:TaxSubtotal>
+        <cbc:TaxableAmount currencyID="MYR">2000.00</cbc:TaxableAmount>
+        <cbc:TaxAmount currencyID="MYR">200.00</cbc:TaxAmount>
+        <cac:TaxCategory>
+          <cbc:ID>01 sdfsd sdf </cbc:ID>
+          <cbc:Percent>10.00</cbc:Percent>
+          <cac:TaxScheme>
+            <cbc:ID schemeID="UN/ECE 5153" schemeAgencyID="6">OTH</cbc:ID>
+          </cac:TaxScheme>
+        </cac:TaxCategory>
+      </cac:TaxSubtotal>
+    </cac:TaxTotal>
+    <cac:Item>
+      <cbc:Description>Sales Tax 10 um of amount chargeable for each tax typePlease add currencyID attribute to the XMLSum of amount chargeable for edd currencyID attribute to trertewrt um of amount chargeable for each tax typePlease add currencyID attribute to the XMLSum of amount chargeable for edd currencyID attribute to trertewrt um of amount chargeable for each tax typePlease add currencyID attribute to the XMLSum of amount chargeable for edd currencyID attribute to trertewrt um of amount chargeable for each tax typePlease add currencyID attribute to the XMLSum of amount chargeable for edd currencyID attribute to trertewrt item</cbc:Description>
+      <cac:OriginCountry>
+        <cbc:IdentificationCode>IND</cbc:IdentificationCode>
+      </cac:OriginCountry>
+      <cac:CommodityClassification>
+        <cbc:ItemClassificationCode listID="PTC">9800.00.0010 sdf dsf sd </cbc:ItemClassificationCode>
+      </cac:CommodityClassification>
+      <cac:CommodityClassification>
+        <cbc:ItemClassificationCode listID="CLASS">005 sdf sdf </cbc:ItemClassificationCode>
+      </cac:CommodityClassification>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="MYR">20.00</cbc:PriceAmount>
+    </cac:Price>
+    <cac:ItemPriceExtension>
+      <cbc:Amount currencyID="MYR">2000.00</cbc:Amount>
+    </cac:ItemPriceExtension>
+  </cac:InvoiceLine>
+  <cac:InvoiceLine>
+    <cbc:ID>2</cbc:ID>
+    <cbc:InvoicedQuantity unitCode="">20.00</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="MYR">2000.00</cbc:LineExtensionAmount>
+    <cac:AllowanceCharge>
+      <cbc:ChargeIndicator>false</cbc:ChargeIndicator>
+      <cbc:Amount currencyID="MYR">0.00</cbc:Amount>
+    </cac:AllowanceCharge>
+    <cac:TaxTotal>
+      <cbc:TaxAmount currencyID="MYR">0.00</cbc:TaxAmount>
+      <cac:TaxSubtotal>
+        <cbc:TaxableAmount currencyID="MYR">2000.00</cbc:TaxableAmount>
+        <cbc:TaxAmount currencyID="MYR">0.00</cbc:TaxAmount>
+        <cac:TaxCategory>
+          <cbc:ID>E</cbc:ID>
+          <cbc:Percent>0.00</cbc:Percent>
+          <cbc:TaxExemptionReason>Sum of amount chargeable for each tax typePlease add currencyID attribute to the XMLSum of amount chargeable for each tax typePlease add currencyID attribute to trertewrthe XMdsfsdfsdfsdfsLSum  um of amount chargeable for each tax typePlease add currencyID attribute to the XMLSum of amount chargeable for edd currencyID attribute to trertewrt of amount chargeable foID attribute to the able for each ta-5 typePlease add currencyID attribute to the XM</cbc:TaxExemptionReason>
+          <cac:TaxScheme>
+            <cbc:ID schemeID="UN/ECE 5153" schemeAgencyID="6">OTH</cbc:ID>
+          </cac:TaxScheme>
+        </cac:TaxCategory>
+      </cac:TaxSubtotal>
+    </cac:TaxTotal>
+    <cac:Item>
+      <cbc:Description>Tax exemption um of amount chargeable for each tax typePlease add currencyID attribute to the XMLSum of amount chargeable for edd currencyID attribute to trertewrtum of amount chargeable for each tax typePlease add currencyID attribute to the XMLSum of amount chargeable for edd currencyID attribute to trertewrtum of amount chargeable for each tax typePlease add currencyID attribute to the XMLSum of amount chargeable for edd currencyID attribute to trertewrtum of amount chargeable for each tax typePlease add currencyID attribute to the XMLSum of amount chargeable for edd currencyID attribute to trertewrt item2</cbc:Description>
+      <cac:OriginCountry>
+        <cbc:IdentificationCode>IND ds ds df </cbc:IdentificationCode>
+      </cac:OriginCountry>
+      <cac:CommodityClassification>
+        <cbc:ItemClassificationCode listID="CLASS">023 sdf sdf dfsa sdf ssdf sadf sdf asdf sdf sadf  asdf  um of amount chargeable for each tax typePlease add currencyID attribute to the XMLSum of amount chargeable for edd currencyID attribute to trertewrtum of amount chargeable for each tax typePlease add currencyID attribute to the XMLSum of amount chargeable for edd currencyID attribute to trertewrtum of amount chargeable for each tax typePlease add currencyID attribute to the XMLSum of amount chargeable for edd currencyID attribute to trertewrtum of amount chargeable for each tax typePlease add currencyID attribute to the XMLSum of amount chargeable for edd currencyID attribute to trertewrt</cbc:ItemClassificationCode>
+      </cac:CommodityClassification>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="MYR">100.00</cbc:PriceAmount>
+    </cac:Price>
+    <cac:ItemPriceExtension>
+      <cbc:Amount currencyID="MYR">2000.00</cbc:Amount>
+    </cac:ItemPriceExtension>
+  </cac:InvoiceLine>
+</Invoice>

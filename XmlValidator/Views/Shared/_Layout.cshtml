@@ -1,0 +1,118 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <style>
+        .navbar {
+            padding: 1rem 2rem;
+        }
+
+        .navbar-brand {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        .nav-link {
+            padding: 0.5rem 1rem;
+        }
+
+        .navbar-dark .navbar-nav .nav-link:hover {
+            color: #f8f9fa;
+        }
+        .navbar {
+            padding: 1rem 2rem;
+            background-color: #343a40; 
+        }
+
+        .navbar-brand {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #ff79c6;
+        }
+
+        .nav-link {
+            padding: 0.5rem 1rem;
+            color: #f8f8f2;
+        }
+
+        .navbar-dark .navbar-nav .nav-link:hover {
+            color: #f8f9fa; 
+        }
+
+        .container.body-content {
+            color: #f8f8f2; 
+        }
+
+        footer {
+            color: #6272a4; 
+        }
+        .navbar {
+            padding: 1rem 2rem;
+            background-color: #343a40; 
+        }
+
+        .navbar-brand {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #ff79c6; 
+        }
+
+        .nav-link {
+            padding: 0.5rem 1rem;
+            color: #f8f8f2;
+        }
+
+        .navbar-dark .navbar-nav .nav-link:hover {
+            color: #f8f9fa;
+        }
+
+        .container.body-content {
+            min-height: calc(100vh - 162px);
+            display: flex;
+            flex-direction: column;
+        }
+
+        footer {
+            margin-top: auto;
+            color: #6272a4; 
+            text-align: center;
+            padding: 1rem 0;
+            background-color: #282a36; 
+        }
+    </style>
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark">
+        <div class="container">
+            @Html.ActionLink("Xml Validator", "Index", "Validator", new { area = "" }, new { @class = "navbar-brand" })
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; @DateTime.Now.Year - Pk's App</p>
+        </div>
+    </footer>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
